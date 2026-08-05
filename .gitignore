@@ -1,0 +1,18 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/storage/*.db
+backend/storage/*.joblib
+backend/storage/models/*.joblib
+backend/storage/cache/
+backend/storage/avatars/*
+frontend/node_modules/
+frontend/dist/
+dataset/
+logs/
+*.log
+
+# temporary crops made while building the report
+docs/figures/crop_*.png
+.DS_Store
